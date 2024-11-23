@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de la rejilla */
+.grid-container {
+  display: flex; /* Usamos flexbox en lugar de grid */
+  flex-direction: row; /* Los elementos se organizan en una fila horizontal */
+  gap: 10px;
+  justify-items: center;
+  flex-wrap: wrap; /* Para que los elementos pasen a la siguiente fila si es necesario */
+}
+
+/* Estilo para cada celda */
+.grid-item {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  min-width: 50px; /* Para asegurar que cada celda tenga un tamaño mínimo */
+  flex-grow: 1; /* Para que los elementos se distribuyan proporcionalmente */
+}
+
+/* Rejilla 3x3 */
+.grid-container-3x3 {
+  width: 300px;
+}
+
+/* Rejilla 4x4 */
+.grid-container-4x4 {
+  width: 400px;
+}
+
+/* Rejilla 5x5 */
+.grid-container-5x5 {
+  width: 500px;
+}
+
+/* Rejilla 6x6 */
+.grid-container-6x6 {
+  width: 600px;
+}
