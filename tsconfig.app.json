@@ -11,7 +11,11 @@
   "files": [
     "src/main.ts",
     "src/main.server.ts",
+<<<<<<< HEAD
     "server.ts"
+=======
+    "src/server.ts"
+>>>>>>> 8a0782b8c497fdf2343b97cb4dd40b2769b467cd
   ],
   "include": [
     "src/**/*.d.ts"

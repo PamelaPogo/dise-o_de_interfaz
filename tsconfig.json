@@ -12,17 +12,24 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "esModuleInterop": true,
+<<<<<<< HEAD
     "sourceMap": true,
     "declaration": false,
+=======
+>>>>>>> 8a0782b8c497fdf2343b97cb4dd40b2769b467cd
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
+<<<<<<< HEAD
     "module": "ES2022",
     "lib": [
       "ES2022",
       "dom"
     ]
+=======
+    "module": "ES2022"
+>>>>>>> 8a0782b8c497fdf2343b97cb4dd40b2769b467cd
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
