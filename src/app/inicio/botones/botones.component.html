@@ -1,0 +1,114 @@
+<div class="menu_botones">
+  <div class="title-container title">Botones</div>
+
+  <div class="text_center"><h2>Ejemplos Button</h2></div>
+  <div class="card flex justify-center gap-4">
+    <p-button
+      label="Search"
+      icon="pi pi-check"
+      [loading]="loading"
+      (onClick)="load()"
+    />
+    <div class="card flex justify-center">
+      <p-button label="Submit" [disabled]="true" />
+    </div>
+    <div class="card flex justify-center flex-wrap gap-4">
+      <p-button label="Emails" badge="2" styleClass="m-0" />
+      <p-button
+        label="Messages"
+        icon="pi pi-users"
+        badge="2"
+        badgeSeverity="contrast"
+        styleClass="m-0"
+        [outlined]="true"
+      />
+    </div>
+    <div class="card flex justify-center">
+      <div class="card flex flex-wrap gap-4 justify-center">
+        <p-button label="Success" variant="outlined" severity="success" />
+        <p-button label="Help" variant="outlined" severity="help" />
+        <p-button label="Danger" variant="outlined" severity="danger" />
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h2>Botones</h2>
+  </div>
+  <div class="card flex-wrap justify-center">
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+      <p-button label="Guardar" icon="pi pi-save" styleClass="p-button-success"></p-button>
+      <p-button label="Editar" icon="pi pi-pencil" styleClass="p-button-warning"></p-button>
+      <p-button label="Eliminar" icon="pi pi-trash" styleClass="p-button-danger"></p-button>
+      <p-button label="Descargar" icon="pi pi-download" styleClass="p-button-info"></p-button>
+    </div>
+  </div>
+
+  <div>
+    <h2>Botones Icon Only</h2>
+  </div>
+  <div class="card flex justify-content-center gap-3">
+    <p-button icon="pi pi-check" [rounded]="true" />
+    <p-button icon="pi pi-bookmark" [rounded]="true" severity="secondary" />
+    <p-button icon="pi pi-search" [rounded]="true" severity="success" />
+    <p-button icon="pi pi-user" [rounded]="true" severity="info" />
+    <p-button icon="pi pi-bell" [rounded]="true" severity="warning" />
+    <p-button icon="pi pi-heart" [rounded]="true" severity="help" />
+    <p-button icon="pi pi-times" [rounded]="true" severity="danger" />
+</div>
+
+<div>
+  <h2>Botones Outlined</h2>
+</div>
+<div class="card flex justify-content-center gap-3">
+  <p-button label="Guardar" icon="pi pi-save" styleClass="p-button-outlined p-button-success"></p-button>
+  <p-button label="Editar" icon="pi pi-pencil" styleClass="p-button-outlined p-button-warning"></p-button>
+  <p-button label="Eliminar" icon="pi pi-trash" styleClass="p-button-outlined p-button-danger"></p-button>
+  <p-button label="Descargar" icon="pi pi-download" styleClass="p-button-outlined p-button-info"></p-button>
+</div>
+
+<div>
+  <h2>Botones Raised Text</h2>
+</div>
+<div class="card flex justify-content-center gap-3">
+  <p-button label="Guardar" icon="pi pi-save" styleClass="p-button-raised p-button-text p-button-success"></p-button>
+  <p-button label="Editar" icon="pi pi-pencil" styleClass="p-button-raised p-button-text p-button-warning"></p-button>
+  <p-button label="Eliminar" icon="pi pi-trash" styleClass="p-button-raised p-button-text p-button-danger"></p-button>
+  <p-button label="Descargar" icon="pi pi-download" styleClass="p-button-raised p-button-text p-button-info"></p-button>
+</div>
+
+<div>
+  <h2>Botones Text</h2>
+</div>
+<div class="card flex justify-content-center gap-3">
+<p-button label="Primary" [text]="true" />
+<p-button label="Secondary" [text]="true" severity="secondary" />
+<p-button label="Success" [text]="true" severity="success" />
+<p-button label="Info" [text]="true" severity="info" />
+<p-button label="Warning" [text]="true" severity="warning" />
+<p-button label="Help" [text]="true" severity="help" />
+<p-button label="Danger" [text]="true" severity="danger" />
+<p-button label="Plain" [text]="true" [plain]="true" />
+</div>
+
+<div>
+  <h2>Botones Rounded</h2>
+</div>
+<div class="card flex justify-content-center gap-3">
+<p-button label="Primary" [rounded]="true" />
+<p-button label="Secondary" [rounded]="true" severity="secondary" />
+<p-button label="Success" [rounded]="true" severity="success" />
+<p-button label="Info" [rounded]="true" severity="info" />
+<p-button label="Warning" [rounded]="true" severity="warning" />
+<p-button label="Help" [rounded]="true" severity="help" />
+<p-button label="Danger" [rounded]="true" severity="danger" />
+<p-button label="Contrast" [rounded]="true" severity="contrast" />
+</div>
+
+</div>
+
+<div class="botones">
+  <div class="button-container">
+    <button class="btn" routerLink="/inicio/menu-tareas">Regresar</button>
+  </div>
+</div>
