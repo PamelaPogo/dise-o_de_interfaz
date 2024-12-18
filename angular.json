@@ -33,9 +33,14 @@
             ],
             "styles": [
               "src/styles.scss",
+<<<<<<< HEAD
               "node_modules/primeicons/primeicons.css",
               "node_modules/primeflex/primeflex.css",
               "node_modules/primeng/resources/themes/saga-blue/theme.css", 
+=======
+              "node_modules/primeflex/primeflex.css",
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+>>>>>>> e566cf03f8675f780590c52777e0958b6531272d
               "node_modules/primeng/resources/primeng.min.css"
             ],
             "scripts": [],
@@ -100,7 +105,12 @@
               }
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.scss"
+=======
+              "src/styles.scss",
+              "node_modules/primeflex/primeflex.css"
+>>>>>>> e566cf03f8675f780590c52777e0958b6531272d
             ],
             "scripts": []
           }
@@ -109,6 +119,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": false
+=======
+    "analytics": "1e454e72-1669-413e-a35a-f3647a9fc238"
+>>>>>>> e566cf03f8675f780590c52777e0958b6531272d
   }
 }
